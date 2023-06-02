@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify_ui_clone/screen/bottom_navigator_bar_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Spotify Clone',
       theme: ThemeData.dark(),
-      // home: BottomNavigatorBarPage,
+      home: BottomNavigatorBarPage(),
     );
   }
 }

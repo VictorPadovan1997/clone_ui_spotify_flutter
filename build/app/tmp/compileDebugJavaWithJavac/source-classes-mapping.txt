@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/spotify_ui_clone/BuildConfig.java
+ com.example.spotify_ui_clone.BuildConfig
