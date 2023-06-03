@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:spotify_ui_clone/screen/home_screen.dart';
+import 'package:spotify_ui_clone/screen/search_screen.dart';
 
 class BottomNavigatorBarPage extends StatefulWidget {
   @override
@@ -85,7 +86,7 @@ class _BottomNavigatorBarPageState extends State<BottomNavigatorBarPage> {
       }
       if (index == 1) {
         currentIndex = index;
-        _widgetBody = Center(child: Text('Search'));
+        _widgetBody = SearchScreen();
       }
       if (index == 2) {
         currentIndex = index;

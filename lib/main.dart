@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Spotify Clone',
       theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
       home: BottomNavigatorBarPage(),
     );
   }
